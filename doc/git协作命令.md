@@ -24,6 +24,16 @@ git commit -m 'xx'
 
 git push
 
+# 从远程分支同步本地分支
+1. 同步所有的远程分支数据到硬盘
+git fetch 
+
+2. 切换自己的分支
+git checkout feature_wuya
+
+3. 合并远程分支的数据到自己的分支
+git merge origin/develop
+
 
 ## 配置git代理
 找到代理使用的端口
